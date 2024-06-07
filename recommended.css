@@ -1,0 +1,118 @@
+/* Created by Group-2*/
+html {
+	background-color: rgb(255, 255, 255);
+	background-size: contain;
+	background-position: center;
+	height: 100%;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: violet;
+	text-decoration: none;
+}
+
+a:hover {
+	color: skyblue;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	text-align: center;
+	padding: 2px 2px;
+	border: solid white 1px;
+	border-width: inherit;
+	text-decoration: none;
+	justify-content: center;
+	font-weight:bold;
+}
+.header{
+	width: 100%;
+	position: fixed;
+	top:0;
+}
+
+.middle{
+	margin-top: 30px;
+	text-align: center;
+	padding: 20px;
+}
+nav a:not(:last-child){
+	margin-right:10px;
+	text-decoration: none;
+}
+ a:link, a:visited{
+	background-color: rgb(7, 7, 7);
+	border: 1px solid black;
+    border-radius: 5px;
+	color: white;
+	margin-right: 10px;
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+}
+ a:hover, a:active{
+	background-color: azure;
+	color: black ;
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	margin-top: 50px;
+}
+img{
+	width: 150px;
+	height: 200px;
+}
+
+footer{
+	width: 100%;
+	position:fixed;
+    left:0;
+    bottom:0;
+	text-decoration: none;
+    width: 100%;
+}
+
+.bookContainer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.book {
+    margin: 10px;
+    text-align: center;
+	flex-wrap: wrap;
+}
+
+.book h3 {
+    margin-bottom: 10px;
+}
+
+.book img {
+    width: 150px;
+    height: 200px;
+}
+
+.book p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.paragraph{
+	text-align: center;
+}

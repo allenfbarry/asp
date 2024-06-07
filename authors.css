@@ -1,0 +1,105 @@
+/* Created by Group-2*/
+html {
+	background-color: rgb(255, 255, 255);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: violet;
+}
+
+a:hover {
+	color: skyblue;
+}
+
+a:active {
+	color: white;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 2px 2px;
+	border: solid white 1px;
+	border-width: inherit;
+	font-weight:bold;
+}
+
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.middle {
+	margin-top: 30px;
+	text-align: center;
+	padding: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+nav a:not(:last-child) {
+	margin-right: 10px;
+}
+
+a:link, a:visited {
+	background-color: rgb(12, 12, 12);
+	border: 1px solid black;
+    border-radius: 5px;
+	color: white;
+	margin-right: 10px;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: azure;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+h2{
+	text-align: center;
+}
+img {
+	width: 150px;
+	height: 200px;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+form.buttons {
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.authorRow{
+	display: flex;
+	justify-content:space-evenly;
+}
+
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+}
+

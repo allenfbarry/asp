@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Created by Group-2 -->
+    <meta charset="UTF-8" />
+    <title>Favorites List</title>
+    <link rel="stylesheet" type="text/css" href="bookstyle.css" />
+  </head>
+  <body>
+    <div class="header">
+      <!-- Navigation bar -->
+      <nav>
+        <a href="homePage.html" class="button"> Home </a>
+        <a href="books.php" class="button"> Books </a>
+        <a href="authors.php" class="button"> Authors </a>
+        <a href="recommendedPicks.php" class="button"> Recommended Picks </a>
+        <a href="favorites.html" class="button"> Favorites List </a>
+        <a href="stores.html" class="button"> Book Stores Near Me </a>
+        <a href="feedback.php" class="button"> Feedback </a>
+      </nav>
+    </div>
+    <h1>List of favorite books</h1>
+    <table id="tablecontent"></table>
+    <!-- javascript to retrive data from session storage -->
+    <script>
+      var cnt = window.sessionStorage.getItem("strvalue");
+      document.getElementById("tablecontent").innerHTML = cnt;
+    </script>
+    <!-- Defining Footer of the page with about and contact details -->
+    <footer>
+      <nav>
+          <a href="about.html" class="button"> About </a>
+          <a href="contact.html" class="button"> Contact Us </a>
+      </nav>
+  </footer>  
+  </body>
+</html>
